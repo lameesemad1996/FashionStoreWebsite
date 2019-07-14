@@ -2,10 +2,15 @@
 
     <div class="banner_bottom_agile_info">
         <div class="container">
+            
             <ul *ngFor="let element of elements">
 
-                <app-hover-effect-card [element]="element"></app-hover-effect-card>
-
+                <div class="banner_bottom_agile_info_inner_w3ls">
+                    <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+                        <app-hover-effect-card [element]="element"></app-hover-effect-card>
+                    </div>
+                </div>
+                
             </ul>
         </div>
     </div>
