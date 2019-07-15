@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
+A fashion store website template implemented with html, css and javascript to be implemented as a single page website using Angular6 in the front-end and Java Spring in the back-end.
+
+**Template Link**: https://drive.google.com/open?id=1nA_JxTInrFRtvmZjrKQP_f3nK_98kADS
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
