@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { OffersBanner } from '../models/offers-banner.model';
 
 @Component({
   selector: 'app-offers-banner',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./offers-banner.component.css']
 })
 export class OffersBannerComponent implements OnInit {
+
+  @Input() banner: OffersBanner;
 
   constructor() { }
 

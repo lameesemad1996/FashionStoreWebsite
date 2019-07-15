@@ -24,6 +24,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { TrendingComponent } from './trending/trending.component';
 import { TrendingBlockComponent } from './trending-block/trending-block.component';
 import { OffersBannerComponent } from './offers-banner/offers-banner.component';
+import { OffersBannerDisplayComponent } from './offers-banner-display/offers-banner-display.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { OffersBannerComponent } from './offers-banner/offers-banner.component';
     ScheduleComponent,
     TrendingComponent,
     TrendingBlockComponent,
-    OffersBannerComponent
+    OffersBannerComponent,
+    OffersBannerDisplayComponent
   ],
   imports: [
     BrowserModule,
