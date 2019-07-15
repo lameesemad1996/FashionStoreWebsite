@@ -23,6 +23,7 @@ import { CasrouselBannerComponent } from './casrousel-banner/casrousel-banner.co
 import { ScheduleComponent } from './schedule/schedule.component';
 import { TrendingComponent } from './trending/trending.component';
 import { TrendingBlockComponent } from './trending-block/trending-block.component';
+import { OffersBannerComponent } from './offers-banner/offers-banner.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { TrendingBlockComponent } from './trending-block/trending-block.componen
     CasrouselBannerComponent,
     ScheduleComponent,
     TrendingComponent,
-    TrendingBlockComponent
+    TrendingBlockComponent,
+    OffersBannerComponent
   ],
   imports: [
     BrowserModule,
