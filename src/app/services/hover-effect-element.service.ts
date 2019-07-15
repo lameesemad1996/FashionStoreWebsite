@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HoverEffectElement } from '../models/hover-effect-element.model';
+import { trendingBlock } from '../models/trendingBlock.model';
 
 @Injectable({
   providedIn: 'root'
@@ -29,4 +30,5 @@ export class HoverEffectElementService {
 
     return elements;
   }
+
 }

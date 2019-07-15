@@ -20,6 +20,9 @@ import { HoverEffectElementComponent } from './hover-effect-element/hover-effect
 import { FirstLetterPipe } from './pipes/first-letter.pipe';
 import { HoverEffectCardComponent } from './hover-effect-card/hover-effect-card.component';
 import { CasrouselBannerComponent } from './casrousel-banner/casrousel-banner.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { TrendingComponent } from './trending/trending.component';
+import { TrendingBlockComponent } from './trending-block/trending-block.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { CasrouselBannerComponent } from './casrousel-banner/casrousel-banner.co
     HoverEffectElementComponent,
     FirstLetterPipe,
     HoverEffectCardComponent,
-    CasrouselBannerComponent
+    CasrouselBannerComponent,
+    ScheduleComponent,
+    TrendingComponent,
+    TrendingBlockComponent
   ],
   imports: [
     BrowserModule,
