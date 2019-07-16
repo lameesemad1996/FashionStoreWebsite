@@ -18,8 +18,8 @@ export class OffersBannerService {
       banner.imgsrc1 = "../../assets/images/bot_1.jpg";
       banner.imgsrc2 = "../../assets/images/bot_2.jpg";
 
-      banner.routerLink1 = "womenswear";
-      banner.routerLink1 = "menswear";
+      banner.routerLink1 = "womens-wear";
+      banner.routerLink1 = "mens-wear";
       
       return banner;
   }

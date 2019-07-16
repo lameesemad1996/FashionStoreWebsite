@@ -28,9 +28,9 @@ export class TrendingBlockService {
     tb1.vertical.secondText = "Up to 55%";
     tb1.vertical.imgsrc = "../../assets/images/bb1.jpg";
 
-    tb1.routerLinkH1 = "menswear";
-    tb1.routerLinkH2 = "menswear";
-    tb1.routerLinkV = "womenswear";
+    tb1.routerLinkH1 = "mens-wear";
+    tb1.routerLinkH2 = "mens-wear";
+    tb1.routerLinkV = "womens-wear";
 
     let blocks: trendingBlock[] = [];
     blocks.push(tb1);

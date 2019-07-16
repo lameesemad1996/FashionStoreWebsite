@@ -8,7 +8,7 @@ export class ProductService {
 
   constructor() { }
 
-  getProducts()
+  getMensProducts()
   {
     let p1: Product = new Product;
     p1.productId = 1;
@@ -46,14 +46,14 @@ export class ProductService {
     p5.name = "Men's Black Jeans";
 
 
-    let products: Product[] = [];
-    products.push(p1);
-    products.push(p2);
-    products.push(p3);
-    products.push(p4);
-    products.push(p5);
+    let mensproducts: Product[] = [];
+    mensproducts.push(p1);
+    mensproducts.push(p2);
+    mensproducts.push(p3);
+    mensproducts.push(p4);
+    mensproducts.push(p5);
 
-    return products;
+    return mensproducts;
   }
 
 }

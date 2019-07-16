@@ -11,10 +11,17 @@ export class NewArrivalsComponent implements OnInit {
 
   constructor(private ps: ProductService) { }
 
-  products: Product[] = [];
+  mensproducts: Product[] = [];
+  womensproducts: Product[] = [];
+  bagsproducts: Product[] = [];
+  footwearproducts: Product[] = [];
 
   ngOnInit() {
-    this.products = this.ps.getProducts();
-  }
+    this.mensproducts = this.ps.getMensProducts();
+    // this.womensproducts = this.ps.getWomensProducts();
+    // this.bagsproducts = this.ps.getBagsProducts();
+    // this.footwearproducts = this.ps.getFootwearProducts();
+
+  } 
 
 }

@@ -27,6 +27,9 @@ import { OffersBannerComponent } from './offers-banner/offers-banner.component';
 import { OffersBannerDisplayComponent } from './offers-banner-display/offers-banner-display.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ServicesBannerComponent } from './services-banner/services-banner.component';
+import { FlatDiscountBannerComponent } from './flat-discount-banner/flat-discount-banner.component';
+import { InformationBannerComponent } from './information-banner/information-banner.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,10 @@ import { ProductCardComponent } from './product-card/product-card.component';
     OffersBannerComponent,
     OffersBannerDisplayComponent,
     NewArrivalsComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ServicesBannerComponent,
+    FlatDiscountBannerComponent,
+    InformationBannerComponent
   ],
   imports: [
     BrowserModule,
