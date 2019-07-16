@@ -25,6 +25,8 @@ import { TrendingComponent } from './trending/trending.component';
 import { TrendingBlockComponent } from './trending-block/trending-block.component';
 import { OffersBannerComponent } from './offers-banner/offers-banner.component';
 import { OffersBannerDisplayComponent } from './offers-banner-display/offers-banner-display.component';
+import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,9 @@ import { OffersBannerDisplayComponent } from './offers-banner-display/offers-ban
     TrendingComponent,
     TrendingBlockComponent,
     OffersBannerComponent,
-    OffersBannerDisplayComponent
+    OffersBannerDisplayComponent,
+    NewArrivalsComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

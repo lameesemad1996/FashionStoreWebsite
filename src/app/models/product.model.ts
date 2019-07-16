@@ -1,8 +1,9 @@
 export class Product {
 
     productId: number;
-    price: number;
+    oldPrice: number;
+    newPrice: number;
     name: string;
-    photo: File;
+    imgsrc: string;
 
 }
